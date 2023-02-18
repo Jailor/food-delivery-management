@@ -26,18 +26,31 @@ The food delivery management system has the following features:
 - **Observer Design Pattern**: The employee interface is notified of every new order using the observer design pattern, with the singleton delivery service being the observable class.
 - **Design by Contract**: preconditions, postconditions and invariants are defined in the IDeliveryServiceInterface which are then checked by the implementation.
 - **Serialization**: application data is serialized into a file for safekeeping, allowing for easy storage and retrieval.
+- **Streams and lmabda functions**: Functional programming elements like streams and lambda functions are used for processing data for the reports and populating the data from the CSV.
 
 ### Main menu
-<img src="/ss/main_menu.PNG" width="500" >
+<img src="/ss/main_menu.PNG" width="700" >
 
 ### Admin View
-<img src="/ss/admin.PNG" width="500" >
+<img src="/ss/admin.PNG" width="700" >
 
 ### Client Login
-<img src="/ss/client_login.PNG" width="500" >
+<img src="/ss/client_login.PNG" width="700" >
 
 ### Client View
-<img src="/ss/add_view.PNG" width="500" >
+<img src="/ss/client_view.PNG" width="700" >
 
-### Edit View
-<img src="/ss/edit_view.png" width="500" >
+### Employee View
+<img src="/ss/employee.PNG" width="700" >
+
+### Report 1 View 
+<img src="/ss/report1.PNG" width="700" >
+
+### Report 2 View 
+<img src="/ss/report2.PNG" width="700" >
+
+### Report 3 View 
+<img src="/ss/report3.PNG" width="700" >
+
+### Report 4 View 
+<img src="/ss/report4.PNG" width="700" >
