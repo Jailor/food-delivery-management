@@ -1,0 +1,13 @@
+-------------------------------------------------
+BILL for order with on date Thu Apr 28 00:06:30 EEST 2022
+-------------------------------------------------
+Client:cristi_pelle
+phone number:123214124
+-------------------------------------------------
+Ordered products are:
+Ethiopian Spice Tea
+Smoked Caviar and Hummus on Pita Toasts
+Barbecued Shrimp
+-------------------------------------------------
+Total order price is: 199.0
+-------------------------------------------------

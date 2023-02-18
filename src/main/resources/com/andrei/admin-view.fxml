@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.andrei.Controller.AdminController">
+   <children>
+      <Button layoutX="34.0" layoutY="40.0" mnemonicParsing="false" onAction="#onMainMenu" prefHeight="30.0" prefWidth="154.0" text="Main Menu">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TableView fx:id="itemTable" layoutX="28.0" layoutY="118.0" prefHeight="474.0" prefWidth="944.0">
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Button layoutX="235.0" layoutY="40.0" mnemonicParsing="false" onAction="#onAddBaseItem" prefHeight="30.0" prefWidth="154.0" text="Add Base Item">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="400.0" layoutY="40.0" mnemonicParsing="false" onAction="#onEditBaseItem" prefHeight="30.0" prefWidth="154.0" text="Edit Base Item">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="563.0" layoutY="40.0" mnemonicParsing="false" onAction="#onRemoveItem" prefHeight="30.0" prefWidth="154.0" text="Remove Item">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="compositeNameTextField" layoutX="769.0" layoutY="14.0" prefHeight="30.0" prefWidth="210.0" promptText="Enter composite menu name... " />
+      <Button layoutX="769.0" layoutY="55.0" mnemonicParsing="false" onAction="#onCreateComposite" prefHeight="30.0" prefWidth="210.0" text="Create composite menu item">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="717.0" layoutY="95.0" prefHeight="15.0" prefWidth="261.0" text="💡Hint: use CTRL to select from table to use for composite">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button layoutX="49.0" layoutY="599.0" mnemonicParsing="false" onAction="#onGenerateReport1" prefHeight="30.0" prefWidth="154.0" text="Generate Report 1">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Orders between a given start/end hour" />
+         </tooltip>
+      </Button>
+      <Button layoutX="221.0" layoutY="599.0" mnemonicParsing="false" onAction="#onGenerateReport2" prefHeight="30.0" prefWidth="154.0" text="Generate Report 2">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Items ordered more than a specified number of times so far" />
+         </tooltip>
+      </Button>
+      <Button layoutX="389.0" layoutY="599.0" mnemonicParsing="false" onAction="#onGenerateReport3" prefHeight="30.0" prefWidth="154.0" text="Generate Report 3">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Clients with number of orders and order value higher than specified ones" />
+         </tooltip>
+      </Button>
+      <Button layoutX="554.0" layoutY="599.0" mnemonicParsing="false" onAction="#onGenerateReport4" prefHeight="30.0" prefWidth="154.0" text="Generate Report 4">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Items ordered from a specified day and their count" />
+         </tooltip>
+      </Button>
+      <Label layoutX="717.0" layoutY="606.0" prefHeight="15.0" prefWidth="281.0" text="💡Hint: Hover over any report button to see what it generates">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <Button layoutX="400.0" layoutY="80.0" mnemonicParsing="false" onAction="#onLoad" prefHeight="30.0" prefWidth="154.0" text="Load Items">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <tooltip>
+            <Tooltip text="Load the initial set of base items from the file &quot;products.csv&quot;&quot;" />
+         </tooltip>
+      </Button>
+   </children>
+</AnchorPane>

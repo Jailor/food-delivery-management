@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.andrei.Controller.CreateEditBaseController">
+   <children>
+      <Button layoutX="178.0" layoutY="404.0" mnemonicParsing="false" onAction="#onAccept" prefHeight="30.0" prefWidth="154.0" text="Accept">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="390.0" layoutY="404.0" mnemonicParsing="false" onAction="#onCancel" prefHeight="30.0" prefWidth="154.0" text="Cancel">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="264.0" layoutY="107.0" text="Title:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="titleTextField" layoutX="319.0" layoutY="102.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter unique non-empty name...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="257.0" layoutY="146.0" text="Rating:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ratingTextField" layoutX="319.0" layoutY="141.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter positive real number...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="253.0" layoutY="187.0" text="Calories:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="caloriesTextField" layoutX="319.0" layoutY="182.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter positive natural number...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="253.0" layoutY="315.0" text="Sodium:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fatTextField" layoutX="319.0" layoutY="269.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter positive natural number...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="270.0" layoutY="274.0" text="Fat:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="sodiumTextField" layoutX="319.0" layoutY="310.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter positive natural number...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="priceTextField" layoutX="319.0" layoutY="348.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter positive real number...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Label layoutX="263.0" layoutY="353.0" text="Price:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="253.0" layoutY="229.0" text="Proteins:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="proteinTextField" layoutX="319.0" layoutY="224.0" prefHeight="30.0" prefWidth="250.0" promptText="Enter positive natural number...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

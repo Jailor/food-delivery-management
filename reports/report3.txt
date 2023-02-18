@@ -1,0 +1,13 @@
+-------------------------------------------------
+REPORT 3 for ADMINISTRATOR
+-------------------------------------------------
+This report contains all the clients that have ordered a minimum number of times so far
+ and the order value higher than a specific amount.
+minimum price for each order: 100.0;
+-------------------------------------------------
+Clients that fit the criteria (empty means no clients fit criteria):
+Client name:cristi_pelle; phone number:123214124; number of orders matching filters: 2;
+Client name:andrei; phone number:123456789; number of orders matching filters: 1;
+Client name:test; phone number:123456789; number of orders matching filters: 1;
+Client name:andrei_pelle; phone number:123456789; number of orders matching filters: 0;
+-------------------------------------------------

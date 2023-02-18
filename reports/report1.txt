@@ -1,0 +1,36 @@
+-------------------------------------------------
+REPORT 1 for ADMINISTRATOR
+-------------------------------------------------
+This report contains all the orders completed between different times of the day.
+Filters applied:
+minimum hour: 20;
+maximum hour: -1;
+-------------------------------------------------
+Orders that fit the criteria (empty means no orders fit criteria):
+Client: andrei; Date:Fri Apr 29 22:54:50 EEST 2022; Value: 27.0;
+Contents:
+Fish Stock
+Client: andrei; Date:Wed Apr 27 23:55:43 EEST 2022; Value: 31.0;
+Contents:
+înghețată de vanilie
+Meniul Zilei
+pui cripsy
+Client: andrei; Date:Wed Apr 27 23:55:45 EEST 2022; Value: 13.0;
+Contents:
+suc de portocale
+cartofi
+Client: andrei; Date:Mon May 02 23:24:34 EEST 2022; Value: 42.0;
+Contents:
+Meniul Zilei
+pui cripsy
+suc de portocale
+cartofi
+Client: andrei_pelle; Date:Wed May 04 23:21:43 EEST 2022; Value: 6.0;
+Contents:
+cartofi
+Client: andrei; Date:Thu May 05 23:13:03 EEST 2022; Value: 35.0;
+Contents:
+Meniul Zilei
+pui cripsy
+cartofi
+-------------------------------------------------

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="550.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.andrei.Controller.RegisterController">
+    <children>
+    <Button layoutX="376.0" layoutY="350.0" mnemonicParsing="false" onAction="#onCancel" prefHeight="30.0" prefWidth="154.0" text="Cancel">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Button>
+      <TextField fx:id="usernameField" layoutX="295.0" layoutY="110.0" prefHeight="30.0" prefWidth="236.0" />
+      <TextField fx:id="phoneNumberField" layoutX="295.0" layoutY="160.0" prefHeight="30.0" prefWidth="236.0" />
+      <Button layoutX="207.0" layoutY="350.0" mnemonicParsing="false" onAction="#onAccept" prefHeight="30.0" prefWidth="154.0" text="Accept">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordField1" layoutX="295.0" layoutY="220.0" prefHeight="30.0" prefWidth="236.0" />
+      <PasswordField fx:id="passwordField2" layoutX="295.0" layoutY="275.0" prefHeight="30.0" prefWidth="236.0" />
+      <Label layoutX="185.0" layoutY="111.0" prefHeight="27.0" prefWidth="98.0" text="Username:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="221.0" prefHeight="27.0" prefWidth="98.0" text="Password:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="117.0" layoutY="276.0" prefHeight="27.0" prefWidth="166.0" text="Confirm password:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="161.0" prefHeight="27.0" prefWidth="138.0" text="Phone number:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="344.0" layoutY="53.0" prefHeight="35.0" prefWidth="138.0" text="Registration">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+    </children>
+
+</AnchorPane>

@@ -1,0 +1,21 @@
+-------------------------------------------------
+REPORT 4 for ADMINISTRATOR
+-------------------------------------------------
+This report contains all the products ordered within a specific day and the number of times they have been ordered.
+Date requested for report: 2022-04-28;
+-------------------------------------------------
+Products that fit the criteria (empty means no products fit criteria):
+Product title: Spicy Pickled Shallots; price:78.0; number of times ordered: 2
+Product title: pui cripsy; price:8.0; number of times ordered: 3
+Product title: Quick & Spicy Asian Pickles; price:48.0; number of times ordered: 2
+Product title: Red and Green Tomato Salsa; price:38.0; number of times ordered: 1
+Product title: înghețată de vanilie; price:2.0; number of times ordered: 1
+Product title: suc de portocale; price:7.0; number of times ordered: 4
+Product title: Fish Stock; price:27.0; number of times ordered: 1
+Product title: Fresh Corn Tortillas; price:79.0; number of times ordered: 1
+Product title: Barbecued Shrimp; price:71.0; number of times ordered: 1
+Product title: Smoked Caviar and Hummus on Pita Toasts; price:79.0; number of times ordered: 1
+Product title: cartofi; price:6.0; number of times ordered: 8
+Product title: Ethiopian Spice Tea; price:49.0; number of times ordered: 2
+Product title: Meniul Zilei; price:21.0; number of times ordered: 2
+-------------------------------------------------

@@ -1,0 +1,14 @@
+-------------------------------------------------
+BILL for order with on date Mon May 02 23:24:34 EEST 2022
+-------------------------------------------------
+Client:andrei
+phone number:123456789
+-------------------------------------------------
+Ordered products are:
+Meniul Zilei
+pui cripsy
+suc de portocale
+cartofi
+-------------------------------------------------
+Total order price is: 42.0
+-------------------------------------------------

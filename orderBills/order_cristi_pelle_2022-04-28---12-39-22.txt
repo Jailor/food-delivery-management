@@ -1,0 +1,13 @@
+-------------------------------------------------
+BILL for order with on date Thu Apr 28 12:39:22 EEST 2022
+-------------------------------------------------
+Client:cristi_pelle
+phone number:123214124
+-------------------------------------------------
+Ordered products are:
+cartofi
+Quick & Spicy Asian Pickles
+Spicy Pickled Shallots
+-------------------------------------------------
+Total order price is: 132.0
+-------------------------------------------------
