@@ -66,19 +66,6 @@ public class Main extends Application {
     }
 
     public static void main(String[] args) {
-/*        HashMap<String,String> stringMap = new HashMap<>();
-        String s = "pula";
-        stringMap.put("1",s);
-        stringMap.put("2",s);
-        stringMap.put("3",s);
-        stringMap.values().forEach(System.out::println);
-        System.out.println();
-        Hashtable<String,String> hashtable = new Hashtable<>();
-        hashtable.put("1",s);
-        hashtable.put("2",s);
-        hashtable.put("3",s);
-        hashtable.values().forEach(System.out::println);
-        System.out.println();*/
         launch();
     }
 }

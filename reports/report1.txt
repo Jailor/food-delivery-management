@@ -3,34 +3,77 @@ REPORT 1 for ADMINISTRATOR
 -------------------------------------------------
 This report contains all the orders completed between different times of the day.
 Filters applied:
-minimum hour: 20;
-maximum hour: -1;
+minimum hour: 10;
+maximum hour: 22;
 -------------------------------------------------
 Orders that fit the criteria (empty means no orders fit criteria):
+Client: andrei; Date:Thu Apr 28 13:01:18 EEST 2022; Value: 6.0;
+Contents:
+cartofi
+Client: cristi_pelle; Date:Mon May 02 10:23:41 EEST 2022; Value: 71.0;
+Contents:
+Barbecued Shrimp
 Client: andrei; Date:Fri Apr 29 22:54:50 EEST 2022; Value: 27.0;
 Contents:
 Fish Stock
-Client: andrei; Date:Wed Apr 27 23:55:43 EEST 2022; Value: 31.0;
+Client: andrei; Date:Thu Apr 28 12:40:27 EEST 2022; Value: 46.0;
 Contents:
 înghețată de vanilie
+cartofi
+Red and Green Tomato Salsa
+Client: test; Date:Fri May 13 16:50:22 EEST 2022; Value: 121.0;
+Contents:
+test
+meniu complet
 Meniul Zilei
-pui cripsy
-Client: andrei; Date:Wed Apr 27 23:55:45 EEST 2022; Value: 13.0;
+Barbecued Shrimp
+Client: cristi_pelle; Date:Thu Apr 28 13:13:29 EEST 2022; Value: 7.0;
 Contents:
 suc de portocale
-cartofi
-Client: andrei; Date:Mon May 02 23:24:34 EEST 2022; Value: 42.0;
+Client: cristi_pelle; Date:Thu Apr 28 13:53:21 EEST 2022; Value: 7.0;
+Contents:
+suc de portocale
+Client: andrei; Date:Thu Apr 28 13:16:31 EEST 2022; Value: 21.0;
 Contents:
 Meniul Zilei
+Client: andrei; Date:Thu Apr 28 13:07:02 EEST 2022; Value: 21.0;
+Contents:
 pui cripsy
 suc de portocale
 cartofi
-Client: andrei_pelle; Date:Wed May 04 23:21:43 EEST 2022; Value: 6.0;
+Client: andrei; Date:Thu Apr 28 13:43:45 EEST 2022; Value: 260.0;
 Contents:
 cartofi
-Client: andrei; Date:Thu May 05 23:13:03 EEST 2022; Value: 35.0;
+Fresh Corn Tortillas
+Quick & Spicy Asian Pickles
+Spicy Pickled Shallots
+Ethiopian Spice Tea
+Client: andrei; Date:Thu Apr 28 13:50:35 EEST 2022; Value: 6.0;
 Contents:
-Meniul Zilei
+cartofi
+Client: andrei; Date:Thu Apr 28 13:18:31 EEST 2022; Value: 14.0;
+Contents:
 pui cripsy
 cartofi
+Client: andrei; Date:Tue May 10 13:19:35 EEST 2022; Value: 21.0;
+Contents:
+pui cripsy
+suc de portocale
+cartofi
+Client: cristi_pelle; Date:Thu Apr 28 12:39:22 EEST 2022; Value: 132.0;
+Contents:
+cartofi
+Quick & Spicy Asian Pickles
+Spicy Pickled Shallots
+Client: andrei; Date:Thu Apr 28 12:43:02 EEST 2022; Value: 21.0;
+Contents:
+pui cripsy
+suc de portocale
+cartofi
+Client: andrei; Date:Thu Apr 28 13:03:29 EEST 2022; Value: 21.0;
+Contents:
+Meniul Zilei
+Client: andrei; Date:Thu Apr 28 13:50:02 EEST 2022; Value: 27.0;
+Contents:
+Fish Stock
 -------------------------------------------------

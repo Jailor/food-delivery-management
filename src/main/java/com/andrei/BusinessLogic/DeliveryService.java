@@ -281,54 +281,18 @@ public class DeliveryService extends Observable implements IDeliveryServiceProce
         assert (isWellFormed());
         List<MenuItem> updatedList = getMenuItems()
                 .stream()
-                .filter(menuItem -> {
-                    if(minRatingFilter != -1) return menuItem.getRating() >= minRatingFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(maxRatingFilter != -1) return menuItem.getRating() <= maxRatingFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(minCaloriesFilter != -1) return menuItem.getCalories() >= minCaloriesFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(maxCaloriesFilter != -1) return menuItem.getCalories() <= maxCaloriesFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(minProteinFilter != -1) return menuItem.getProtein() >= minProteinFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(maxProteinFilter != -1) return menuItem.getProtein() <= maxProteinFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(minFatFilter != -1) return menuItem.getFat() >= minFatFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(maxFatFilter != -1) return menuItem.getFat() <= maxFatFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(minSodiumFilter != -1) return menuItem.getSodium() >= minSodiumFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(maxSodiumFilter != -1) return menuItem.getSodium() <= maxSodiumFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(minPriceFilter != -1) return menuItem.getPrice() >= minPriceFilter;
-                    else return true;
-                })
-                .filter(menuItem -> {
-                    if(maxPriceFilter != -1) return menuItem.getPrice() <= maxPriceFilter;
-                    else return true;
-                })
+                .filter(menuItem -> minRatingFilter == -1 || menuItem.getRating() >= minRatingFilter)
+                .filter(menuItem -> maxRatingFilter == -1 || menuItem.getRating() <= maxRatingFilter)
+                .filter(menuItem -> minCaloriesFilter == -1 || menuItem.getCalories() >= minCaloriesFilter)
+                .filter(menuItem -> maxCaloriesFilter == -1 || menuItem.getCalories() <= maxCaloriesFilter)
+                .filter(menuItem -> minProteinFilter == -1 || menuItem.getProtein() >= minProteinFilter)
+                .filter(menuItem -> maxProteinFilter == -1 || menuItem.getProtein() <= maxProteinFilter)
+                .filter(menuItem -> minFatFilter == -1 || menuItem.getFat() >= minFatFilter)
+                .filter(menuItem -> maxFatFilter == -1 || menuItem.getFat() <= maxFatFilter)
+                .filter(menuItem -> minSodiumFilter == -1 || menuItem.getSodium() >= minSodiumFilter)
+                .filter(menuItem -> maxSodiumFilter == -1 || menuItem.getSodium() <= maxSodiumFilter)
+                .filter(menuItem -> minPriceFilter == -1 || menuItem.getPrice() >= minPriceFilter)
+                .filter(menuItem -> maxPriceFilter == -1 || menuItem.getPrice() <= maxPriceFilter)
                 .collect(Collectors.toList());
         if(!keyword.equals(""))
         {
@@ -365,30 +329,12 @@ public class DeliveryService extends Observable implements IDeliveryServiceProce
         assert(isWellFormed());
          List<Order> updatedOrders =  getAllOrders()
                 .stream()
-                .filter(order -> {
-                    if(minSecondFilter != -1) return order.getDate().getSeconds() >= minSecondFilter;
-                    else return true;
-                })
-                .filter(order -> {
-                    if(maxSecondFilter != -1) return order.getDate().getSeconds() <= maxSecondFilter;
-                    else return true;
-                })
-                .filter(order -> {
-                    if(minMinuteFilter != -1) return order.getDate().getMinutes() >= minMinuteFilter;
-                    else return true;
-                })
-                .filter(order -> {
-                    if(maxMinuteFilter != -1) return order.getDate().getMinutes() <= maxMinuteFilter;
-                    else return true;
-                })
-                .filter(order -> {
-                    if(minHourFilter != -1) return order.getDate().getHours() >= minHourFilter;
-                    else return true;
-                })
-                .filter(order -> {
-                    if(maxHourFilter != -1) return order.getDate().getHours()<= maxHourFilter;
-                    else return true;
-                })
+                .filter(order ->  minSecondFilter == -1 || order.getDate().getSeconds() >= minSecondFilter)
+                .filter(order -> maxSecondFilter == -1 || order.getDate().getSeconds() <= maxSecondFilter)
+                .filter(order -> minMinuteFilter == -1 || order.getDate().getMinutes() >= minMinuteFilter)
+                .filter(order -> maxMinuteFilter == -1 || order.getDate().getMinutes() <= maxMinuteFilter)
+                .filter(order -> minHourFilter == -1 || order.getDate().getHours() >= minHourFilter)
+                .filter(order -> maxHourFilter == -1 || order.getDate().getHours() <= maxHourFilter)
                 .collect(Collectors.toList());
          //post conditions
          assert (updatedOrders.size() <= getAllOrders().size());
@@ -519,7 +465,7 @@ public class DeliveryService extends Observable implements IDeliveryServiceProce
     /**
      * Filters to a map that contains all the products ordered within
      * a specific day and the number of times they have been ordered.
-     *
+     * <p>
      * If the date parameter is not null, the orders are filtered so that
      * only the required date is present. Then they are filtered so that they
      * contain the menuitem, and then counted. This count is sent to a hash map

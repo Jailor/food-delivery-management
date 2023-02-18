@@ -2,18 +2,13 @@
 REPORT 2 for ADMINISTRATOR
 -------------------------------------------------
 This report contains all the products ordered a minimum number of times so far.
-minimum number of times ordered: 2;
+minimum number of times ordered: 3;
 -------------------------------------------------
 Products that fit the criteria (empty means no products fit criteria):
-Product Title: înghețată de vanilie; price:2.0;
 Product Title: Meniul Zilei; price:21.0; Contains:
 cartofi; suc de portocale; pui cripsy;
 Product Title: pui cripsy; price:8.0;
 Product Title: suc de portocale; price:7.0;
 Product Title: cartofi; price:6.0;
-Product Title: Quick & Spicy Asian Pickles; price:48.0;
-Product Title: Spicy Pickled Shallots; price:78.0;
-Product Title: Ethiopian Spice Tea; price:49.0;
 Product Title: Barbecued Shrimp; price:71.0;
-Product Title: Fish Stock; price:27.0;
 -------------------------------------------------
